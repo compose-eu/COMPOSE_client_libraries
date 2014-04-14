@@ -1,4 +1,4 @@
-client_libraries
+COMPOSE Client Libraries
 ================
 
-client libraries for devices (Arduino, Flyport, mbed, etc.)
+Client libraries for devices (Arduino, Flyport, mbed, etc.)
