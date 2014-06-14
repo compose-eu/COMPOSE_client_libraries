@@ -2,7 +2,7 @@
 #include "HttpClient.h"
 #include "PubSubClient.h"
 
-#define auth_token  "OWIzZjk4MmUtMjNlOC00ZTZkLWI3YjItY2JkMGEwYzNiMzJmYzI4Y2RlNTMtNzFmYy00MzY5LWE5M2YtZmUyYzUzOTVkYTFj"
+#define auth_token  "OWIzZjk4MmUtMjNlOC00ZTZkL-------5M2YtZmUyYzUzOTVkYTFj"
 #define SO_ID "139973385949113af8188748f43a0b9a59d9d7dd4c06a"
 
 byte broker_ip[] = {  147, 83, 30, 150 };
@@ -54,7 +54,7 @@ void loop(){
   
   if(check_time(10000)) {
      Serial.println("sending sensor data...");
-     Serial.println(updateSensor("neuroscience", "date", "300"));
+     Serial.println(updateSensor("stream", "channel", "value"));
   }
   client.loop();
   
